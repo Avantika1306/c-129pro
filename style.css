@@ -1,0 +1,48 @@
+body{
+    background-image:url("bg1.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    background:white;
+    width: 100%;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-family: 'Chewy', cursive;
+    animation-name: reset;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes reset{
+    50%{font-size: 50px;}
+}
+.note{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+#name{
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+}
+canvas{
+    border-radius:20px ;
+    animation-name: ava;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top: 100px;
+    
+}
+@keyframes ava{
+    0%{box-shadow:3px 3px 45px blanchedalmond;}
+    25%{box-shadow:3px 3px 45px #32e677;}
+    50%{box-shadow:3px 3px 45px rgb(204, 130, 20);}
+    75%{box-shadow:3px 3px 45px rgb(73, 67, 158);}
+  100%{box-shadow:3px 3px 45px rgb(44, 202, 223);}
+    
+}
+#song{
+    margin-top: 180px;
+}
